@@ -1,0 +1,26 @@
+/* Tweet.css */
+.tweet-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.tweet-avatar-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    margin-bottom: 5px;
+}

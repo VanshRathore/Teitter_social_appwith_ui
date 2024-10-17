@@ -1,0 +1,24 @@
+.likes-timestamp-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #657786;
+    justify-content: space-between;
+}
+
+.like-section, .retweet-section, .reply-section {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.like-icon.liked {
+    color: red; 
+}
+
+.created-at {
+    color: #657786;
+    font-size: 12px;
+}

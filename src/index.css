@@ -1,13 +1,25 @@
+/* index.css */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f8fa;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text */
 }
+
+/* Update sidebar styles for dark theme */
+body.dark-theme .sidebar-left {
+    background-color: #1e1e1e; /* Dark sidebar */
+}
+
+body.dark-theme .sidebar-right {
+    background-color: #1e1e1e; /* Dark sidebar */
+}
+
+/* Add other necessary styles for dark theme */

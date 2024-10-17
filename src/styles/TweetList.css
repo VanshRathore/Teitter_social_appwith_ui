@@ -1,0 +1,9 @@
+.tweet-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tweet-like-wrapper {
+    margin-bottom: 10px;
+}
